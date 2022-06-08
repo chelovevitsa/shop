@@ -1,0 +1,33 @@
+.header-container {
+  padding: 0 20px;
+}
+
+.header-container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.header-container .header--logo {
+  color: black;
+}
+
+.header-container .header--login__btn {
+  color: black;
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+
+.header-container .header--login__btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */

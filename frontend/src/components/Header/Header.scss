@@ -1,0 +1,35 @@
+.header-container {
+  padding: 0 20px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+    &--logo {
+      color: black;
+    }
+
+    &--admin {
+      padding: 100px;
+      border: 20px rgb(128, 47, 0) double;
+      color: white;
+      padding: 10px;
+    }
+
+    &--login {
+      &__btn {
+        color: black;
+        font-size: 18px;
+        background: none;
+        border: none;
+
+        &:hover {
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

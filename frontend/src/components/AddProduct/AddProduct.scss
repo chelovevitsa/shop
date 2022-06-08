@@ -1,0 +1,28 @@
+.add-product-container {
+    form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        input {
+            border: 1px solid black;
+            padding: 8px 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            z-index: 0;
+        }
+        button {
+            border: 1px solid black;
+            padding: 4px 10px;
+            background: none;
+            font-size: 18px;
+            margin-bottom: 20px;
+
+            &:hover {
+                background: black;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

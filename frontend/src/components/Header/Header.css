@@ -1,0 +1,36 @@
+/* .header-container {
+  padding: 0 20px;
+}
+.header--admin {
+  color: aqua;
+  background-color: fuchsia !important;
+}
+.header-container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(10, 199, 199);
+}
+
+.header-container .header--logo {
+  color: rgb(1, 183, 152);
+}
+
+.header-container .header--login__btn {
+  color: rgb(5, 162, 198);
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+
+.header-container .header--login__btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+# sourceMappingURL=Header.css.map */

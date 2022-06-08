@@ -1,0 +1,45 @@
+.login-box-container {
+    display: flex;
+    justify-content: center;
+
+    .login-box {
+        .form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+
+            &__label {
+                margin-bottom: -10px;
+                display: inline-block;
+                background: white;
+                padding: 0 2px;
+                width: fit-content;
+                font-size: 14px;
+                margin-left: 6px;
+                z-index: 1;
+            }
+
+            &__input {
+                border: 1px solid black;
+                padding: 8px 10px;
+                margin-bottom: 20px;
+                font-size: 18px;
+                z-index: 0;
+            }
+
+            &__submit {
+                border: 1px solid black;
+                padding: 4px 10px;
+                background: none;
+                font-size: 18px;
+                margin-bottom: 20px;
+
+                &:hover {
+                    background: black;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
